@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wandergithub/awesome-books/issues"
   },
-  "homepage": "https://github.com/wandergithub/awesome-books#readme"
+  "homepage": "https://github.com/wandergithub/awesome-books#readme",
+  "dependencies": {
+    "luxon": "^2.3.2"
+  }
 }

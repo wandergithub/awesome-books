@@ -6,6 +6,9 @@ import createBooklist from "./modules/createBooklist.js";
 import {btnClass, links} from "./modules/htmlElements.js";
 import sectionsHandler from "./modules/sectionsHandler.js";
 import removeBook from './modules/removeBook.js';
+import { DateTime } from "luxon";
+
+const now = DateTime.now();
 
 btnClass.addEventListener('click', () => {
     createBooklist();
