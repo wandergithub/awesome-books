@@ -1,6 +1,6 @@
 import { list, add, contact } from './htmlElements.js';
 
-export default function sectionsHandler(element) {
+const sectionsHandler = (element) => {
   element.preventDefault();
   const link = element.target;
   if (link.classList.contains('list')) {
@@ -16,4 +16,6 @@ export default function sectionsHandler(element) {
     add.classList.remove('active');
     contact.classList.add('active');
   }
-}
+};
+
+export default sectionsHandler;

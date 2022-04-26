@@ -1,6 +1,6 @@
 import Storage from './storage.js';
 
-export default function removeBook(element) {
+const removeBook = (element) => {
   if (element.target.classList.contains('btn2')) {
     const PARENT = element.target.parentNode;
     const TITLE = PARENT.children[0].children[0].textContent;
@@ -8,4 +8,6 @@ export default function removeBook(element) {
     PARENT.remove();
     Storage.removeBook(TITLE, AUTHOR);
   }
-}
+};
+
+export default removeBook;
