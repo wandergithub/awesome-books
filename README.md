@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Get Inspired
+# Awesome Books
 
-> A compilation of resources about programmers and their acoomplishments in their career. If you are looking for successful people to look up to, search for inspiration, or simple admire a good software career path and work.
+> This web page keeps a list of book using the local storage to keep track of Book titles with its corresponding Author.
 
 ## App screenshot 
 
@@ -20,7 +20,6 @@
 ## Getting Started 🧰
 
 1. Clone the main branch.
-2. Check out dependencies project on package.json file
 3. Then you can open the index.html file in your prefered browser.
 
 ## Author👤
