@@ -1,4 +1,3 @@
-import Storage from './modules/storage.js';
 import BookList, {
   listOfName
 } from './modules/BookList.js';
