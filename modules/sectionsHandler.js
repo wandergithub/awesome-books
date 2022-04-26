@@ -1,4 +1,5 @@
-import { list, add, contact} from "./htmlElements.js";
+import { list, add, contact } from './htmlElements.js';
+
 export default function sectionsHandler(element) {
   element.preventDefault();
   const link = element.target;
