@@ -2,7 +2,7 @@
 
 # Awesome Books
 
-> This web page keeps a list of book using the local storage to keep track of Book titles with its corresponding Author.
+> This web page keeps a list of books using the local storage to keep track of Book titles with their corresponding Authors.
 
 ## App screenshot 
 
